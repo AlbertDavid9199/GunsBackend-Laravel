@@ -1,0 +1,29 @@
+{
+    "name": "appzcoder/crud-generator",
+    "license": "MIT",
+    "description": "Laravel 5 CRUD Generator",
+    "keywords": [
+        "laravel",
+        "crud",
+        "crud generator"
+    ],    
+    "authors": [
+        {
+            "name": "Sohel Amin",
+            "email": "sohelamincse@gmail.com",
+            "homepage": "http://www.appzcoder.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*",
+        "laravelcollective/html": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appzcoder\\CrudGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true    
+}

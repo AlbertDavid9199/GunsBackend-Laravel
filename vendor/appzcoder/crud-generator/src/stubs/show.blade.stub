@@ -1,0 +1,17 @@
+@extends('layouts.master')
+
+@section('content')
+
+    <h1>%%crudNameSingularCap%%</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <tr>
+                <th>ID.</th> %%formHeadingHtml%%
+            </tr>
+            <tr>
+                <td>{{ $%%crudNameSingular%%->id }}</td> %%formBodyHtml%%
+            </tr>
+        </table>
+    </div>
+
+@endsection

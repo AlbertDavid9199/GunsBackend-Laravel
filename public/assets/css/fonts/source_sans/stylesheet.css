@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'source_sans';
+    font-style: normal;
+    font-weight: 200;
+	
+    src:
+		 local('Source Sans Light'), url('fonts/roboto/sourcesanspro-light-webfont.eot');
+    src: url('fonts/roboto/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/roboto/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/roboto/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+}
+
+
+@font-face {
+    font-family: 'source_sans';
+    font-style: normal;
+    font-weight: 400;
+	
+    src: local('Source Sans Light'), url('fonts/roboto/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/roboto/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/roboto/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+}
+
+@font-face {
+    font-family: 'source_sans';
+    font-style: normal;
+    font-weight: 800;
+	
+    src: local('Source Sans Bold'), url('fonts/roboto/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/roboto/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/roboto/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('fonts/roboto/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+}
+
+

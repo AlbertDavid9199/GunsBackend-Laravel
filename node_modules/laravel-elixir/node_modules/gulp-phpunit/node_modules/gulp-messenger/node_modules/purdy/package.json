@@ -1,0 +1,32 @@
+{
+  "name": "purdy",
+  "version": "1.4.1",
+  "description": "pretty print objects in real purdy colors. Allows clearer visualization of objects than you get from most pretty printers due to colors. It will also print out the complete path to an object, something that's extremly useful for debugging. Purdy will also print out the path to access a variable using Hoek format making it useful on accessing values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-cov"
+  },
+  "homepage": "https://github.com/danielb2/purdy.js",
+  "bugs": "https://github.com/danielb2/purdy.js/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielb2/purdy.js.git"
+  },
+  "author": "Daniel Bretoi",
+  "keywords": [
+    "ansi",
+    "terminal",
+    "colors",
+    "pretty",
+    "print",
+    "color"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "lab": "4.x.x"
+  },
+  "dependencies": {
+    "hoek": "2.x.x",
+    "chalk": "0.4.x"
+  }
+}
